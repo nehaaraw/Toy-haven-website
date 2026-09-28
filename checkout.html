@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Toy Haven collectible toys and games">
+<meta name="theme-color" content="#5b3cc4">
+<title>Checkout | Toy Haven</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-page="checkout">
+
+<header class="site-header"><div class="container navbar">
+<a class="logo" href="index.html">Toy <span>Haven</span></a>
+<button class="hamburger" id="hamburger" aria-label="Open menu">☰</button>
+<nav class="nav-links" id="navLinks">
+<a href="index.html">Home</a>
+<a href="products.html">Shop</a>
+<a href="products.html">Categories</a>
+<a href="feedback.html">About / Support</a>
+</nav>
+<div class="nav-actions">
+    <a href="cart.html" class="icon-btn">🛒<span class="cart-count" data-cart-count>0</span></a></div>
+</div>
+</header>
+
+<main>
+    <div class="container">
+        <section class="page-title">
+        <h1>Checkout</h1>
+        <p class="muted">Delivery Information</p>
+        </section>
+
+<!--delivery info form -->
+<div class="checkout-layout">
+<section class="panel">
+<form class="form-grid" onsubmit="placeOrder(event)">
+<label>Full Name<input class="form-control" name="fullName" required minlength="2"></label>
+<label>Email<input class="form-control" type="email" name="email" required></label>
+<label>Delivery Address<textarea class="form-control" name="address" rows="4" required minlength="10"></textarea></label>
+<label>Payment method:</label>
+<div class="radio-row">
+    <label><input type="radio" name="payment" value="Card" required> Card</label>
+    <label><input type="radio" name="payment" value="COD"> Cash on Delivery</label></div>
+    <label>Promotion Code<input class="form-control" name="promo" placeholder="ABC12"></label>
+   <button class="btn btn-dark" type="submit">Place Order</button>
+</form>
+</section>
+
+<aside class="panel">
+    <h2>Order Summary</h2>
+    <div id="checkoutProducts"></div>
+    <div class="summary-row">
+        <span>Sub total</span>
+        <strong id="checkoutSubtotal">$0.00</strong>
+    </div>
+    <div class="summary-row">
+        <span>Delivery</span>
+        <strong id="checkoutDelivery">$0.00</strong>
+    </div>
+    <div class="summary-row total">
+        <span>Total</span>
+        <strong id="checkoutTotal">$0.00</strong>
+    </div></aside></div></div>
+</main>
+
+<footer>
+    <div class="container footer-grid">
+<div>
+    <h2>Toy Haven</h2><p>Collectibles, toys, board games and diecast cars for every kind of toy lover.</p>
+</div>
+<!--footer explore part-->
+<div>
+    <h3>Explore</h3>
+    <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="products.html">Shop</a>
+        <a href="wishlist.html">My Collection</a>
+    </div></div>
+
+<div>
+    <h3>Help</h3>
+    <div class="footer-links">
+        <a href="feedback.html">Feedback & Support</a>
+        <a href="cart.html">Cart</a>
+    </div></div>
+</div>
+</footer>
+
+<div class="toast" aria-live="polite"></div>
+<script src="js/products.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

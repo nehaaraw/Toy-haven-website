@@ -1,0 +1,15 @@
+{
+  "name": "Toy Haven",
+  "short_name": "Toy Haven",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f7f7fb",
+  "theme_color": "#5b3cc4",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
