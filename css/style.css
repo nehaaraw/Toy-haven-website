@@ -164,8 +164,11 @@ button{cursor:pointer}
 .btn-dark{background:#222;
   color:#fff}
 
-.btn-light{background:#fff;
-  color:var(--primary)}
+.btn-light{
+  background:#ffffff;
+  /* color:var(--primary)*/
+  color:#111111;
+}
 
 .hero-dots{position:absolute;
   bottom:18px;left:7%;
@@ -192,7 +195,10 @@ button{cursor:pointer}
 .section h2{margin:0;
   font-size:2rem}
 
-.muted{color:var(--muted)}
+.muted{
+  color: #ffffff;
+  /*color:var(--muted)*/}
+
 /*product image styling*/
 .product-image {
   width: 100%;
