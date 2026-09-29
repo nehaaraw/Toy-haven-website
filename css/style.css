@@ -166,7 +166,7 @@ button{cursor:pointer}
 
 .btn-light{
   background:#ffffff;
-  /* color:var(--primary)*/
+  color:var(--primary)
   color:#111111;
 }
 
@@ -197,7 +197,7 @@ button{cursor:pointer}
 
 .muted{
   color: #ffffff;
-  /*color:var(--muted)*/}
+  color:var(--muted)}
 
 /*product image styling*/
 .product-image {
