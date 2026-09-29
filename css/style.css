@@ -47,7 +47,7 @@ button{cursor:pointer}
   font-weight:900;
   color:var(--primary)}
 
-.logo span{color:var(--pink)}
+.logo span{color:#8b1e5a;}
 
 .nav-links{display:flex;
   align-items:center;
@@ -69,7 +69,7 @@ button{cursor:pointer}
 
 .hamburger{display:none}
 
-.cart-count{background:var(--pink);
+.cart-count{background:#4a2f8f;
   color:#fff;
   border-radius:999px;
   padding:1px 7px;
@@ -147,12 +147,6 @@ button{cursor:pointer}
 .hero p{font-size:1.1rem;
   opacity:.92;
 color:#ffffff;}
-
-/* Fix contrast errors for hero banner text and paragraphs */
-.hero-content h1,
-.hero-content p {
-    color: #ffffff;
-}
 
 .btn{display:inline-flex;
   align-items:center;
