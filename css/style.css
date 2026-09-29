@@ -141,10 +141,12 @@ button{cursor:pointer}
 
 .hero h1{font-size:clamp(2.2rem,5vw,4rem);
   line-height:1.05;
-  margin:0 0 15px}
+  margin:0 0 15px;
+ color: #ffffff;}
 
 .hero p{font-size:1.1rem;
-  opacity:.92}
+  opacity:.92;
+color:#ffffff;}
 
 .btn{display:inline-flex;
   align-items:center;
@@ -166,8 +168,7 @@ button{cursor:pointer}
 
 .btn-light{
   background:#ffffff;
-  color:var(--primary)
-  color:#111111;
+  color: #111111;
 }
 
 .hero-dots{position:absolute;
