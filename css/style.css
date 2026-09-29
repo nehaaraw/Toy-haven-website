@@ -148,6 +148,12 @@ button{cursor:pointer}
   opacity:.92;
 color:#ffffff;}
 
+/* Fix contrast errors for hero banner text and paragraphs */
+.hero-content h1,
+.hero-content p {
+    color: #ffffff;
+}
+
 .btn{display:inline-flex;
   align-items:center;
   justify-content:center;
